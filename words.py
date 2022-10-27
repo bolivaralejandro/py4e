@@ -1,4 +1,4 @@
-name = raw_input('Enter file:')
+name = input('Enter file:')
 handle = open(name)
 
 counts = dict()

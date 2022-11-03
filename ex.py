@@ -24,5 +24,5 @@ for i in range(count):
         NAME = tag.text
         t.append(NAME) # get all the names into a list
     #printing list elements
-    url = s[position-1] #we have to locate the number of the URL first before we can go furthur, removing this line will cause the program to look at one URL over and over again
+    url = s[position-1] #we have to locate the number of the URL first before we can go further, removing this line will cause the program to look at one URL over and over again
     print ('Retrieving: ' + s[position-1]) #since numbering in python starts from 0, and the program wants us to start counting from 1, so we subtract 1 to reflect that in our solution
